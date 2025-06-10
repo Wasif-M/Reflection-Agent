@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
-from model import llm
+from RelexionAgent.model import llm
 
 reflection_prompt = ChatPromptTemplate.from_messages([
     ("system", """You are a viral twitter influencer grading a tweet. Generate critique and recommendations for the user's tweet.
